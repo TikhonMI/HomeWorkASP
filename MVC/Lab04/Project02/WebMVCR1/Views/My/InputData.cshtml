@@ -1,0 +1,126 @@
+﻿@model WebMVCR1.Models.Person 
+<!--
+    Lab3.2(4)Добавление строго типизированного представления.4
+Razor-оператор САБАКАmodel определяет тип модели, с которым связано представление.
+Далее представлена разметка страницы и реализация тела на основе tag-
+хелперов. Вспомогательные функции тегов позволяют серверному коду
+участвовать в создании и отображении HTML-элементов в файлах Razor –
+большинство встроенных вспомогательных функций тегов работают со
+стандартными HTML-элементами и предоставляют для них атрибуты на стороне
+сервера, элемент <input> содержит атрибут asp-for – этот атрибут извлекает имя
+свойства указанной модели в готовый для просмотра HTML-код.-->
+@{
+    //Layout = null; //Lab4.2.1 устанавливает значение свойства Layout на null, представление является автономным, оно будет показывать все содержимое которое должно вернуться клиенту.
+
+    /* Lab4.2(3)Использование макета _ViewStart.3-4 Во всех представлениях удаляем строку присвоения шаблона.
+    Layout = "~/Views/_BasicLayout.cshtml"; //Lab4.2(2)Применение макета.5-6 Применяем макет _BasicLayout
+    ViewBag.Title = "Введите данные"; //Lab4.2(2)Применение макета.5-6 значение для свойства ViewBag.Title будет использоваться в качестве контента элемента title в HTML документе
+    */
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>InputData</title>
+</head>
+<body>
+
+    <!--Lab3.2(4)Добавление строго типизированного представления.5 удаляем сгенерированный код 
+<h4>Person</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="InputData">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="FirstName" class="control-label"></label>
+                <input asp-for="FirstName" class="form-control" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastName" class="control-label"></label>
+                <input asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+-->
+
+
+    <!--Lab3.2(5)Создание формы для ввода данных.1 -->
+    <h4>Person</h4>
+    <div>
+        
+
+        <!-- убрали в Lab4.1.1
+        //Lab3.2(5)Создание формы для ввода данных.1 с помощью запроса POST реализуем 
+        <form method="post">
+            <table>
+                <tr>
+                    <td><p>Введите имя:</p></td>
+                    <td><input type="text" name="FirstName" /> </td>
+                    /*свойства name соответствуют
+                    именам свойств модели Person и при нажатии кнопки и отправки запроса
+                    передаются значения этих полей*/
+                </tr>
+                <tr>
+                    <td><p>Введите фамилию:</p></td>
+                    <td><input type="text" name="LastName" /> </td>
+                    /*свойства name соответствуют
+                    именам свойств модели Person и при нажатии кнопки и отправки запроса
+                    передаются значения этих полей*/
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Отправить" />
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+        </form>
+        -->
+
+        <!--Lab4.1.1  заменяем разметку для ввода данных с помощью метода-хелпера Html.BeginForm и двух html-хелперов для ввода информации пользователем-->
+        <!--метод-хелпера Html.BeginForm-->
+        @using (Html.BeginForm()) ; 
+
+        <form method="post">
+            <table>
+                <tr>
+                    <!--Lab4.1.4 Заменяем текст на HTML-хелпер
+                    <td><p>Введите имя:</p></td> -->
+                    <td>@Html.DisplayName("FirstName"):</td> <!--HTML-хелпер для генерации надписи на основе имени свойства модели-->
+                    <td>@Html.TextBox("FirstName")</td> <!--html-хелпер для ввода информации пользователем-->
+                </tr>
+                <tr>
+                    <!--Lab4.1.4 Заменяем текст на HTML-хелпер
+                    <td><p>Введите фамилию:</p></td> -->
+                    <td>@Html.DisplayNameFor(model => model.LastName):</td> <!--HTML-хелпер для генерации надписи на основе имени свойства модели-->
+                    <td>@Html.TextBoxFor(x => x.LastName)</td> <!--html-хелпер для ввода информации пользователем (использует лямбда-выражение)
+                                            Оба варианта ввода данных идентичен, но использование лямбда-выражений в строго типизированном хелпере считается предпочтительным.-->
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Отправить" />
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+        </form>
+        
+
+    </div>
+
+
+</body>
+</html>

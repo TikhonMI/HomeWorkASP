@@ -1,0 +1,27 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+<!--Lab3.3(3)Добавление строго типизированного представления для отображения коллекции.2 Добавили директиву для подключения используемой модели-->
+@model WebMVCR1.Models.PersonRepository
+
+<!--Lab3.3(3)Добавление строго типизированного представления для отображения коллекции.3 Добавили текст для вывода данных свойства модели –
+имени, а также ссылку на главную страницу:-->
+<div>
+    <h3>Список участников</h3>
+    <p>Персон всего @ViewBag.Count</p>
+
+    <ul>
+        @foreach (var c in ViewBag.pers)
+        {
+            <li>@c.ToString()</li>
+
+        }
+    </ul>
+
+    <p>@Html.ActionLink("На главную", "Index")</p>
+</div>
+
+
+
+@{
+}

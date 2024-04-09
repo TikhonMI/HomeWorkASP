@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "8Lp1hms7f6QfW91CGtX0hnUvymSecbIeEuhvF9TrO7E=",
+  "Source": "WebMVCR1",
+  "BasePath": "_content/WebMVCR1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebMVCR1\\wwwroot",
+      "Source": "WebMVCR1",
+      "ContentRoot": "D:\\HomeWorkASP\\MVC\\Lab04\\Project02\\WebMVCR1\\wwwroot\\",
+      "BasePath": "_content/WebMVCR1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\HomeWorkASP\\MVC\\Lab04\\Project02\\WebMVCR1\\wwwroot\\Content\\Site.css",
+      "SourceId": "WebMVCR1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\HomeWorkASP\\MVC\\Lab04\\Project02\\WebMVCR1\\wwwroot\\",
+      "BasePath": "_content/WebMVCR1",
+      "RelativePath": "Content/Site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Content\\Site.css"
+    }
+  ]
+}
