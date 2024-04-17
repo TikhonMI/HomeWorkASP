@@ -1,0 +1,114 @@
+﻿@model StudentPL.Models.Student
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Student</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RussianLanguage" class="control-label"></label>
+                <input asp-for="RussianLanguage" class="form-control" />
+                <span asp-validation-for="RussianLanguage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Literature" class="control-label"></label>
+                <input asp-for="Literature" class="form-control" />
+                <span asp-validation-for="Literature" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ForeignLanguage" class="control-label"></label>
+                <input asp-for="ForeignLanguage" class="form-control" />
+                <span asp-validation-for="ForeignLanguage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Algebra" class="control-label"></label>
+                <input asp-for="Algebra" class="form-control" />
+                <span asp-validation-for="Algebra" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Geometry" class="control-label"></label>
+                <input asp-for="Geometry" class="form-control" />
+                <span asp-validation-for="Geometry" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ComputerScience" class="control-label"></label>
+                <input asp-for="ComputerScience" class="form-control" />
+                <span asp-validation-for="ComputerScience" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Story" class="control-label"></label>
+                <input asp-for="Story" class="form-control" />
+                <span asp-validation-for="Story" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SocialScience" class="control-label"></label>
+                <input asp-for="SocialScience" class="form-control" />
+                <span asp-validation-for="SocialScience" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Economy" class="control-label"></label>
+                <input asp-for="Economy" class="form-control" />
+                <span asp-validation-for="Economy" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Geography" class="control-label"></label>
+                <input asp-for="Geography" class="form-control" />
+                <span asp-validation-for="Geography" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Physics" class="control-label"></label>
+                <input asp-for="Physics" class="form-control" />
+                <span asp-validation-for="Physics" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Astronomy" class="control-label"></label>
+                <input asp-for="Astronomy" class="form-control" />
+                <span asp-validation-for="Astronomy" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Chemistry" class="control-label"></label>
+                <input asp-for="Chemistry" class="form-control" />
+                <span asp-validation-for="Chemistry" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Biology" class="control-label"></label>
+                <input asp-for="Biology" class="form-control" />
+                <span asp-validation-for="Biology" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LifeSafetyFundamentals" class="control-label"></label>
+                <input asp-for="LifeSafetyFundamentals" class="form-control" />
+                <span asp-validation-for="LifeSafetyFundamentals" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PhysicalCulture" class="control-label"></label>
+                <input asp-for="PhysicalCulture" class="form-control" />
+                <span asp-validation-for="PhysicalCulture" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

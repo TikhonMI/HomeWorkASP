@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HomeWorkASP\\Lab01\\Project04\\WebAppCoreProduct\\WebAppCoreProduct.csproj": {}
+    "D:\\HomeWorkASP\\Razor Pages\\Lab01\\Project04\\WebAppCoreProduct\\WebAppCoreProduct.csproj": {}
   },
   "projects": {
-    "D:\\HomeWorkASP\\Lab01\\Project04\\WebAppCoreProduct\\WebAppCoreProduct.csproj": {
+    "D:\\HomeWorkASP\\Razor Pages\\Lab01\\Project04\\WebAppCoreProduct\\WebAppCoreProduct.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HomeWorkASP\\Lab01\\Project04\\WebAppCoreProduct\\WebAppCoreProduct.csproj",
+        "projectUniqueName": "D:\\HomeWorkASP\\Razor Pages\\Lab01\\Project04\\WebAppCoreProduct\\WebAppCoreProduct.csproj",
         "projectName": "WebAppCoreProduct",
-        "projectPath": "D:\\HomeWorkASP\\Lab01\\Project04\\WebAppCoreProduct\\WebAppCoreProduct.csproj",
+        "projectPath": "D:\\HomeWorkASP\\Razor Pages\\Lab01\\Project04\\WebAppCoreProduct\\WebAppCoreProduct.csproj",
         "packagesPath": "C:\\Users\\gvozdev_tikhon\\.nuget\\packages\\",
-        "outputPath": "D:\\HomeWorkASP\\Lab01\\Project04\\WebAppCoreProduct\\obj\\",
+        "outputPath": "D:\\HomeWorkASP\\Razor Pages\\Lab01\\Project04\\WebAppCoreProduct\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gvozdev_tikhon\\AppData\\Roaming\\NuGet\\NuGet.Config",

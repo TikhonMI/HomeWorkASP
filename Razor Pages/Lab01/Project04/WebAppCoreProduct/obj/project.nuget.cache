@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D2YyLMHPMFnhIHNh6dayZHfdBlR0l50iMZnaW72QoqcXT+bIl/yYopHWmriDXSfH1xeQKGrrsdGDSWNBrQ12QQ==",
+  "dgSpecHash": "jq8MCsg1OsTC6ge31Yag7CJqdRuK2QIrKZqauZWjVoeJ0KEJIBEc657vsv6leu2fx/QRrsRFgpdmCggrMekKlA==",
   "success": true,
-  "projectFilePath": "D:\\HomeWorkASP\\Lab01\\Project04\\WebAppCoreProduct\\WebAppCoreProduct.csproj",
+  "projectFilePath": "D:\\HomeWorkASP\\Razor Pages\\Lab01\\Project04\\WebAppCoreProduct\\WebAppCoreProduct.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

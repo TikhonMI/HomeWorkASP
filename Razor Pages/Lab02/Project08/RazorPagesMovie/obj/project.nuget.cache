@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Jz+TaS4+hvUyziFktOOsBLHT2CxUFdEn+ejc5IMeEEmqyfDdkVs8BxGp0fBxXRMQo5ENhcpviAtgXhjOvD73zA==",
+  "dgSpecHash": "49S04dChBKzaFT4sIP6lduwTR1yC/mqYhSgmkebJCINhO3GxFhmF+Avn80a0HdYrAz0MehW2J909e1rnZl/n9g==",
   "success": true,
-  "projectFilePath": "D:\\HomeWorkASP\\Lab02\\Project08\\RazorPagesMovie\\RazorPagesMovie.csproj",
+  "projectFilePath": "D:\\HomeWorkASP\\Razor Pages\\Lab02\\Project08\\RazorPagesMovie\\RazorPagesMovie.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gvozdev_tikhon\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\gvozdev_tikhon\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

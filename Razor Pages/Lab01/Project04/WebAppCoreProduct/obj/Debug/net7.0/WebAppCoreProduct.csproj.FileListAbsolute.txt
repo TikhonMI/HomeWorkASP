@@ -106,3 +106,30 @@ D:\HomeWorkASP\Lab01\Project04\WebAppCoreProduct\obj\Debug\net7.0\refint\WebAppC
 D:\HomeWorkASP\Lab01\Project04\WebAppCoreProduct\obj\Debug\net7.0\WebAppCoreProduct.pdb
 D:\HomeWorkASP\Lab01\Project04\WebAppCoreProduct\obj\Debug\net7.0\WebAppCoreProduct.genruntimeconfig.cache
 D:\HomeWorkASP\Lab01\Project04\WebAppCoreProduct\obj\Debug\net7.0\ref\WebAppCoreProduct.dll
+D:\HomeWorkASP\Razor Pages\Lab01\Project04\WebAppCoreProduct\bin\Debug\net7.0\appsettings.Development.json
+D:\HomeWorkASP\Razor Pages\Lab01\Project04\WebAppCoreProduct\bin\Debug\net7.0\appsettings.json
+D:\HomeWorkASP\Razor Pages\Lab01\Project04\WebAppCoreProduct\bin\Debug\net7.0\WebAppCoreProduct.exe
+D:\HomeWorkASP\Razor Pages\Lab01\Project04\WebAppCoreProduct\bin\Debug\net7.0\WebAppCoreProduct.deps.json
+D:\HomeWorkASP\Razor Pages\Lab01\Project04\WebAppCoreProduct\bin\Debug\net7.0\WebAppCoreProduct.runtimeconfig.json
+D:\HomeWorkASP\Razor Pages\Lab01\Project04\WebAppCoreProduct\bin\Debug\net7.0\WebAppCoreProduct.dll
+D:\HomeWorkASP\Razor Pages\Lab01\Project04\WebAppCoreProduct\bin\Debug\net7.0\WebAppCoreProduct.pdb
+D:\HomeWorkASP\Razor Pages\Lab01\Project04\WebAppCoreProduct\obj\Debug\net7.0\WebAppCoreProduct.GeneratedMSBuildEditorConfig.editorconfig
+D:\HomeWorkASP\Razor Pages\Lab01\Project04\WebAppCoreProduct\obj\Debug\net7.0\WebAppCoreProduct.AssemblyInfoInputs.cache
+D:\HomeWorkASP\Razor Pages\Lab01\Project04\WebAppCoreProduct\obj\Debug\net7.0\WebAppCoreProduct.AssemblyInfo.cs
+D:\HomeWorkASP\Razor Pages\Lab01\Project04\WebAppCoreProduct\obj\Debug\net7.0\WebAppCoreProduct.csproj.CoreCompileInputs.cache
+D:\HomeWorkASP\Razor Pages\Lab01\Project04\WebAppCoreProduct\obj\Debug\net7.0\WebAppCoreProduct.MvcApplicationPartsAssemblyInfo.cache
+D:\HomeWorkASP\Razor Pages\Lab01\Project04\WebAppCoreProduct\obj\Debug\net7.0\WebAppCoreProduct.RazorAssemblyInfo.cache
+D:\HomeWorkASP\Razor Pages\Lab01\Project04\WebAppCoreProduct\obj\Debug\net7.0\WebAppCoreProduct.RazorAssemblyInfo.cs
+D:\HomeWorkASP\Razor Pages\Lab01\Project04\WebAppCoreProduct\obj\Debug\net7.0\staticwebassets\msbuild.WebAppCoreProduct.Microsoft.AspNetCore.StaticWebAssets.props
+D:\HomeWorkASP\Razor Pages\Lab01\Project04\WebAppCoreProduct\obj\Debug\net7.0\staticwebassets\msbuild.build.WebAppCoreProduct.props
+D:\HomeWorkASP\Razor Pages\Lab01\Project04\WebAppCoreProduct\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebAppCoreProduct.props
+D:\HomeWorkASP\Razor Pages\Lab01\Project04\WebAppCoreProduct\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WebAppCoreProduct.props
+D:\HomeWorkASP\Razor Pages\Lab01\Project04\WebAppCoreProduct\obj\Debug\net7.0\staticwebassets.pack.json
+D:\HomeWorkASP\Razor Pages\Lab01\Project04\WebAppCoreProduct\obj\Debug\net7.0\staticwebassets.build.json
+D:\HomeWorkASP\Razor Pages\Lab01\Project04\WebAppCoreProduct\obj\Debug\net7.0\staticwebassets.development.json
+D:\HomeWorkASP\Razor Pages\Lab01\Project04\WebAppCoreProduct\obj\Debug\net7.0\scopedcss\bundle\WebAppCoreProduct.styles.css
+D:\HomeWorkASP\Razor Pages\Lab01\Project04\WebAppCoreProduct\obj\Debug\net7.0\WebAppCoreProduct.dll
+D:\HomeWorkASP\Razor Pages\Lab01\Project04\WebAppCoreProduct\obj\Debug\net7.0\refint\WebAppCoreProduct.dll
+D:\HomeWorkASP\Razor Pages\Lab01\Project04\WebAppCoreProduct\obj\Debug\net7.0\WebAppCoreProduct.pdb
+D:\HomeWorkASP\Razor Pages\Lab01\Project04\WebAppCoreProduct\obj\Debug\net7.0\WebAppCoreProduct.genruntimeconfig.cache
+D:\HomeWorkASP\Razor Pages\Lab01\Project04\WebAppCoreProduct\obj\Debug\net7.0\ref\WebAppCoreProduct.dll

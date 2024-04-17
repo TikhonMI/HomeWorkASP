@@ -11297,11 +11297,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HomeWorkASP\\Lab02\\Project08\\RazorPagesMovie\\RazorPagesMovie.csproj",
+      "projectUniqueName": "D:\\HomeWorkASP\\Razor Pages\\Lab02\\Project08\\RazorPagesMovie\\RazorPagesMovie.csproj",
       "projectName": "RazorPagesMovie",
-      "projectPath": "D:\\HomeWorkASP\\Lab02\\Project08\\RazorPagesMovie\\RazorPagesMovie.csproj",
+      "projectPath": "D:\\HomeWorkASP\\Razor Pages\\Lab02\\Project08\\RazorPagesMovie\\RazorPagesMovie.csproj",
       "packagesPath": "C:\\Users\\gvozdev_tikhon\\.nuget\\packages\\",
-      "outputPath": "D:\\HomeWorkASP\\Lab02\\Project08\\RazorPagesMovie\\obj\\",
+      "outputPath": "D:\\HomeWorkASP\\Razor Pages\\Lab02\\Project08\\RazorPagesMovie\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gvozdev_tikhon\\AppData\\Roaming\\NuGet\\NuGet.Config",

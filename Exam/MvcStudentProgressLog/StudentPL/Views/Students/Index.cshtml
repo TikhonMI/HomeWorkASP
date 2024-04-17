@@ -1,0 +1,139 @@
+﻿@model IEnumerable<StudentPL.Models.Student>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Журнал</h1>
+
+<form asp-controller="Students" asp-action="Index" method="get">
+    <p>
+        Поиск учащегося: <input type="text" name="SearchString" />
+        <input type="submit" value="Поиск" />
+    </p>
+</form>
+
+<p>
+    <a asp-action="Create">Добавить ученика</a>
+</p>
+<table class="table table-striped">
+    <thead >
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @* style="transform: rotate(-90deg); transform-origin: center left"*@
+                @Html.DisplayNameFor(model => model.RussianLanguage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Literature)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ForeignLanguage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Algebra)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Geometry)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ComputerScience)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Story)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SocialScience)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Economy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Geography)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Physics)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Astronomy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Chemistry)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Biology)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LifeSafetyFundamentals)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PhysicalCulture)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RussianLanguage)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Literature)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ForeignLanguage)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Algebra)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Geometry)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ComputerScience)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Story)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SocialScience)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Economy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Geography)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Physics)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Astronomy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Chemistry)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Biology)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LifeSafetyFundamentals)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhysicalCulture)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
